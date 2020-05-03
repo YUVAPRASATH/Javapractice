@@ -1,6 +1,5 @@
-package com.javapractice.system;
+package com.javapractice.thesis.system;
 
-import java.io.Console;
 import java.util.Map;
 import java.util.Properties;
 

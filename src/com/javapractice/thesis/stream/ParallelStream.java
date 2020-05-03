@@ -1,5 +1,7 @@
-package com.javapractice.stream;
+package com.javapractice.thesis.stream;
 
+
+import com.javapractice.data.pojo.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,20 +37,3 @@ public class ParallelStream {
     }
 }
 
-class Employee{
-    String name;
-    int salary;
-
-    public String getName() {
-        return name;
-    }
-
-    public int getSalary() {
-        return salary;
-    }
-
-    Employee(String name, int salary){
-        this.name = name;
-        this.salary = salary;
-    }
-}
