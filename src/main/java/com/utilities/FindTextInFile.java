@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 public class FindTextInFile {
 
     public static void main(String args[]) throws IOException {
+        /*
         String findString = "YUVA";
         var filesStream = Files.walk(Paths.get("C:\\Users\\Ranjith\\Documents\\yUVA\\New folder\\"));
         filesStream.map(file -> new File(file.toString()))
@@ -26,5 +27,7 @@ public class FindTextInFile {
                         e.printStackTrace();
                     }
                 });
+
+         */
     }
 }

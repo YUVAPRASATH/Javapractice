@@ -3,8 +3,9 @@ package com.javapractice.thesis.stream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class Stream {
+public class StreamDemo {
     public static void main(String args[]){
         // Data
         //List<Integer> arrayList = Arrays.asList(1,5,7,9,null);
@@ -21,8 +22,9 @@ public class Stream {
                  return true;
             return false;
         } ) );
-        List distinctList = Arrays.asList(arrayList.stream().distinct().toArray());
-        System.out.println( distinctList);
+       // List distinctList = Arrays.asList(arrayList.stream().distinct().toArray());
+        List distinctList = arrayList.stream().distinct().collect(Collectors.toList());
+        System.out.println( "Distinct List :" +distinctList);
       // arrayList.stream().
        // TODO comparator, predicate, supplier, conusmer
         arrayList.add(1);

@@ -10,8 +10,8 @@ public class JasyptEncryptor {
         encryptor.setPassword("secretkey"); // could be got from web, env variable...
         encryptor.setAlgorithm("PBEWithHMACSHA512AndAES_256");
         encryptor.setIvGenerator(new RandomIvGenerator());
-        System.out.println(new RandomIvGenerator());
-        String encryptedPassword = encryptor.encrypt("password");
+        //System.out.println(new RandomIvGenerator());
+        String encryptedPassword = encryptor.encrypt("!ZPB922yuva");
         System.out.println("Encrypted Password:"+encryptedPassword);
 
         // Decryption
