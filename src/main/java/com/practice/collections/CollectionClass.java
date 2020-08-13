@@ -20,7 +20,7 @@ public class CollectionClass {
         set.add("Vijay");
        // set.add("Ravi");
         set.add("Ajay");
-//Traversing elements
+        //Traversing elements
         Iterator<String> itr=set.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());

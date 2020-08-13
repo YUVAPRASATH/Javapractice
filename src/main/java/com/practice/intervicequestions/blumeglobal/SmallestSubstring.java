@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 /**
  *  String inputString;
- *  Find smallest substring which contains all the charaters present in the inputString
+ *  Find smallest substring which contains all the characters present in the inputString
  *
  *  WORKING
  *

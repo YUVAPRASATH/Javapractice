@@ -1,7 +1,5 @@
 package com.practice.intervicequestions.sapient;
 
-import com.sun.org.apache.xpath.internal.objects.XObject;
-
 public class Company {
 
     private String name;
