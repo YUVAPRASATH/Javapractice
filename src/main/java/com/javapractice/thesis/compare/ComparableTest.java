@@ -2,6 +2,7 @@ package com.javapractice.thesis.compare;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class ComparableTest {
 
@@ -10,6 +11,9 @@ public class ComparableTest {
         EmployeePojo employee2 = new EmployeePojo(2,"name2");
         EmployeePojo employee3 = new EmployeePojo(3,"name3");
 
+
+        HashMap<Integer,Integer> newHash = new HashMap<>();
+        newHash.values().size();
         ArrayList<EmployeePojo> employeeList = new ArrayList<>();
 
         employeeList.add(employee2);
